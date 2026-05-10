@@ -1,0 +1,21 @@
+# Real Estate Investment Advisor 🏠
+**Predicting Property Profitability & Future Value**
+
+## Project Overview
+This project provides an intelligent tool to assist real estate investors in assessing property value and profitability. It analyzes various factors like location, size, and amenities to classify properties as "Good Investments" based on market logic.
+
+## Skills Applied
+* **Python & Data Analysis**: Cleaning and preprocessing real estate datasets.
+* **Exploratory Data Analysis (EDA)**: Visualizing price trends, city-wise distributions, and correlations.
+* **Feature Engineering**: Creating new metrics like `Price_per_SqFt` and `Age_of_Property`.
+* **Dashboard Development**: Building an interactive UI using Streamlit.
+
+## Project Structure
+- `app.py`: Main Streamlit application.
+- `eda_preprocessing.py`: Script for data cleaning and feature engineering.
+- `eda_india_housing_prices.csv`: The processed dataset used for visualization.
+- `README.md`: Project documentation.
+
+## How to Run
+1. Install dependencies: `pip install streamlit pandas plotly statsmodels`
+2. Run the application: `streamlit run app.py`
